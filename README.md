@@ -24,8 +24,9 @@
 - Dernæst vælg en ladestation til reservation i dropdown menuen nederst og tryk "Reservér"
 - Nu får du en kvittering - Tryk dernæst på profilikonet øverst til højre (Her kan du slette samt foretage nye reservationer
 - Du kan til enhver tid nu trykke på indstillingsikonet og foretage ændringer til din kundeprofil
-- Gå tilbage til MySQL Workbench og tjek følgende tabeller: Bruger (Er du oprettet?), Bil (Hvilken bil har du valgt?) samt mellemleddet ladestation_har_bil, og se om det stemmer overens med dine informationer
-- Tillykke, du har nu reserveret en ladestation passende din elbil
+- Gå tilbage til MySQL Workbench og tjek følgende tabeller: Bruger (Er du oprettet?), Bil (Hvilken bil har du valgt?) samt mellemleddet Reservation, og se om det stemmer overens med dine informationer
+
+Tillykke, du har nu reserveret en ladestation passende din elbil
 
 #### OBS: 
 ##### Ved uventet fejl eller problemer under kørsel af kode, er videoen "SharePlug.mov" vedlagt som ekstramateriale på WiseFlow som dokumentation. Her dokumenteres brugergrænsefladens funktionalitet. Mappen "Ressourcer" må IKKE udpakkes/udfoldes, ellers fungerer main.py ikke
