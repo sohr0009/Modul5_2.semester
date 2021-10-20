@@ -3,10 +3,11 @@
 ## Setup:
 
 1. Åben terminalen og installer relevante pip's: 
-	pip3 install PyQt5
-	pip3 install PyQtWebEngine
-	pip3 install mysql-connecter-python
-	pip3 install folium
+
+- pip3 install PyQt5
+- pip3 install PyQtWebEngine
+- pip3 install mysql-connecter-python
+- pip3 install folium
 
 2. Åben serverinfo.py og indsæt egen server informationer
 
