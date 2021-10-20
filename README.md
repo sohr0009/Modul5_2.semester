@@ -1,8 +1,6 @@
 ## Setup:
 
 
-# Følg det nedenstående kronologisk ## 
-
 1. Åben terminalen og installer relevante pip's: 
 
 - pip3 install PyQt5
