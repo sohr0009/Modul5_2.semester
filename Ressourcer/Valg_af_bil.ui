@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(1, 54, 54, 255), stop:1 rgba(1, 54, 54, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;arial&quot;;
+color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Første trin.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>710</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;.AppleSystemUIFont&quot;;
+color: rgb(255, 38, 0);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>501</width>
+      <height>801</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255,255,255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fortsaetknap2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>741</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 174, 205);
+font: BOLD 15pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string>Fortsæt</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="logud_knap">
+    <property name="geometry">
+     <rect>
+      <x>46</x>
+      <y>740</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(234, 236, 236);
+font: bold 13pt &quot;Arial&quot;;
+color: rgb(0, 0, 0);
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string>Log ud</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;arial&quot;;
+color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Lad os lokalisere ladestandere for din bil</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo_bil">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>250</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 71);
+font: 20pt &quot;.AppleSystemUIFont&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+
+</string>
+    </property>
+    <property name="currentText">
+     <string>Audi</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Audi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BMW</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Citroen</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hyundai</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mercedes</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toyota</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>200</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;arial&quot;;
+color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Vælg din bilmærke:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>180</y>
+      <width>351</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(76, 106, 116, 80);
+BORDER-RADIUS: 15PX;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_11</zorder>
+   <zorder>label_3</zorder>
+   <zorder>error</zorder>
+   <zorder>fortsaetknap2</zorder>
+   <zorder>logud_knap</zorder>
+   <zorder>combo_bil</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label</zorder>
+   <zorder>label_5</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(1, 54, 54, 255), stop:1 rgba(1, 54, 54, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: BOLD 15pt &quot;Arial&quot;;
+color: rgb(0, 0, 0);
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string> Ladestandere i dit område:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error">
+    <property name="geometry">
+     <rect>
+      <x>217</x>
+      <y>776</y>
+      <width>200</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;.AppleSystemUIFont&quot;;
+color: rgb(255, 38, 0);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>501</width>
+      <height>801</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255,255,255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>451</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 10);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="rowCount">
+     <number>15</number>
+    </property>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderHighlightSections">
+     <bool>true</bool>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Leverandør</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Type</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Parkering</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Adresse</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="reserver">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>740</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 174, 205);
+font: BOLD 15pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string>Reservér</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tilbageknap">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>740</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(234, 236, 236);
+font: bold 15pt &quot;Arial&quot;;
+color: rgb(0, 0, 0);
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string>Tilbage</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="maps">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>30</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(211, 42, 0);
+font: BOLD 15pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string>Maps</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>googlemapsIcon.png</normaloff>googlemapsIcon.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>351</x>
+      <y>83</y>
+      <width>100</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;arial&quot;;
+color:  rgb(211, 42, 0);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>før du kan fortsætte</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>70</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;arial&quot;;
+color:  rgb(211, 42, 0);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Maps vinduet skal slukkes</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="done">
+    <property name="geometry">
+     <rect>
+      <x>214</x>
+      <y>743</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;.AppleSystemUIFont&quot;;
+color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Vælg ladestander</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="ladestander_id">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>744</y>
+      <width>71</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(232, 234, 234);
+color: rgb(0, 0, 0);
+selection-color: rgb(255, 255, 255);
+selection-background-color: rgb(72, 102, 112);
+border-radius: 10px;</string>
+    </property>
+    <property name="currentText">
+     <string/>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="done_2">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>757</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;.AppleSystemUIFont&quot;;
+color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>ladestander:</string>
+    </property>
+   </widget>
+   <zorder>label_11</zorder>
+   <zorder>error</zorder>
+   <zorder>tableWidget</zorder>
+   <zorder>reserver</zorder>
+   <zorder>tilbageknap</zorder>
+   <zorder>label</zorder>
+   <zorder>maps</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_2</zorder>
+   <zorder>done</zorder>
+   <zorder>ladestander_id</zorder>
+   <zorder>done_2</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
