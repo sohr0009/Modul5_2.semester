@@ -11,7 +11,7 @@
 
 2. Åben serverinfo.py og indsæt egen server informationer
 
-3. Kør SharePlugDB.py I terminalen (Her importeres MySQL database til lokal mysql server
+3. Kør SharePlugDB.py I terminalen (Her importeres MySQL database til lokal mysql server)
 
 4. Kør main.py i terminalen (SharePlug app)
 
