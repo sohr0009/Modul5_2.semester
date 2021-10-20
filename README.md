@@ -15,4 +15,4 @@
 4. Kør main.py i terminalen (SharePlug app)
 
 
-## OBS. Ved uventet fejl eller problemer under kørsel af kode, er videoen "SharePlug.mov" vedlagt som dokumentation. Her dokumenteres brugergrænsefladens funktionalitet. 
+## OBS. Ved uventet fejl eller problemer under kørsel af kode, er videoen "SharePlug.mov" vedlagt som ekstramateriale på WiseFlow som dokumentation. Her dokumenteres brugergrænsefladens funktionalitet. 
